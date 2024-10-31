@@ -1,0 +1,12 @@
+[package]
+name = "parser1"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Ruslan Omelchuk"]
+description = "Parser using pest library"
+
+[dependencies]
+anyhow = "1.0.91"
+pest = "2.7.14"
+pest_derive = "2.7.14"
